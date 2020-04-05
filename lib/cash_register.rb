@@ -18,6 +18,7 @@ class CashRegister
       return "After the discount, the total comes to $#{self.total}."
     else
       self.total
+      return "There is no discount to apply."
     end
   end
 end
